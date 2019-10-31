@@ -1,5 +1,5 @@
-numero = int(input('Digite um numero: '))
-while numero > 0:
-    numero = numero - 1
-    print(numero)
-print('Funciona!')
+nota = -1
+while (nota < 0) or (nota > 10):
+    nota = int(input('Informe uma nota: '))
+    if (nota < 0) or (nota > 10):
+        print('Nota Invalida')

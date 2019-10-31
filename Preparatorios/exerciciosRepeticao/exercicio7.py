@@ -1,14 +1,9 @@
-from random import randint
+for i in range(0, 5):
+    numero = int(input('Informe um numero: '))
+    if ('maior' in vars()):
+        if (numero > maior):
+            maior = numero
+    else:
+        maior = numero
 
-// faca um algoritmo que funcione como um metodo de sorteio
-
-num = int(input('Digite um numero inteiro entre 1 e 10: '))
-soma = 0
-numero_sorteado = randint(1,10)
-print(numero_sorteado)
-
-while num != numero_sorteado:
-    soma = soma + numero_sorteado
-    numero_sorteado = randint(1,10)
-    print(numero_sorteado)
-print('A soma eh: ', soma)
+print ('O maior numero que voce digitou foi:', maior)

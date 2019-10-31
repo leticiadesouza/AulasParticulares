@@ -1,7 +1,8 @@
-num = 100
-contador_pares = 0
-while num <= 200:
-    if num % 2 == 0:
-        contador_pares = contador_pares + 1
-    num = num + 1
-print(contador_pares)
+usuario = senha = ''
+while (usuario == senha):
+    usuario = input('Informe um nome de usuario: ')
+    senha = input('Informe a senha: ')
+    if (usuario == senha):
+        print ('A senha nao pode ser igual ao nome do usuario')
+    elif (usuario != senha):
+        print('Senha registrada com sucesso!')
